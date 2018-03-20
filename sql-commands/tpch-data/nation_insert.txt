@@ -1,0 +1,10 @@
+INSERT INTO nation values('0','ALGERIA','0',' haggle. carefully final deposits detect slyly agai');
+INSERT INTO nation values('1','ARGENTINA','1','al foxes promise slyly according to the regular accounts. bold requests alon');
+INSERT INTO nation values('2','BRAZIL','1','y alongside of the pending deposits. carefully special packages are about the ironic forges. slyly special ');
+INSERT INTO nation values('3','CANADA','1','eas hang ironic, silent packages. slyly regular packages are furiously over the tithes. fluffily bold');
+INSERT INTO nation values('4','EGYPT','4','y above the carefully unusual theodolites. final dugouts are quickly across the furiously regular d');
+INSERT INTO nation values('5','ETHIOPIA','0','ven packages wake quickly. regu');
+INSERT INTO nation values('6','FRANCE','3','refully final requests. regular, ironi');
+INSERT INTO nation values('7','GERMANY','3','l platelets. regular accounts x-ray: unusual, regular acco');
+INSERT INTO nation values('8','INDIA','2','ss excuses cajole slyly across the packages. deposits print aroun');
+INSERT INTO nation values('9','INDONESIA','2',' slyly express asymptotes. regular deposits haggle slyly. carefully ironic hockey players sleep blithely. carefull');
