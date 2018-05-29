@@ -82,3 +82,26 @@ Once the Pin Tool is attached, execute one of the sql queries provided in
 sql-commands/tpch-queries-peloton.sql
 
 Note some of them have been slightly modified to fully work with the given setup
+
+
+
+# Measuring Quickstep
+Follow the install instructions to install [Quickstep](https://github.com/apache/incubator-quickstep).
+
+Once installed please use the following to set the number of workers to 1
+
+./quickstep_cli_shell --num_workers=1
+
+Use the commands in sql-commands/create-tpch-quickstep.sql to create the tables, either in row or column format (both are included)
+
+Afterwards load data using the commands in sql-commands/insert-quickstep.sql (example data is given in sql-commands/tpch-data/quickstep but limited in size, please generate data with a scale factor of 1 according to the TPC-H benchmark, e.g. using [tpch-dbgen](https://github.com/electrum/tpch-dbgen))
+
+
+Once this is done, attach the Cache Line Utilization Pin Tool using
+
+sudo ./pin -pid ProcessIDQuickstep -t ./source/tools/CacheLineUtilization/obj-intel64/clutil.so -c 16384 -o ~/clutil-quickstep-Q1
+To retrieve Quicksteps's process id you could use: ps aux | grep quickstep
+
+Once the Pin Tool is attached, execute one of the sql queries provided in 
+
+sql-commands/tpch-queries-quickstep.sql
